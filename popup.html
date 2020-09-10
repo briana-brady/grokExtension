@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <form class="loginform" action="http://localhost:3000/login" method="post">
+      <input class="loginform__email" placeholder="Email" type="email" name="username" autofocus>
+      <input class="loginform__password" placeholder="Password" type="password" name="password">
+      <div class="loginform__asktoregister">
+        Don't have an account? Make one <a href="/register">here</a>.
+      </div>
+      <button class="loginform__submitbtn" type="submit" name="submitbtn">Go</button>
+    </form>
+    <div id="selectedText">
+      Nothing Selected
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="popup.js" charset="utf-8"></script>
+  </body>
+</html>

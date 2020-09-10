@@ -1,0 +1,22 @@
+{
+   "name": "grokLingua Extension",
+   "version": "1.0",
+   "description": "Build an Extension for grokLingua!",
+   "permissions": ["activeTab", "http://localhost/"],
+   "browser_action": {
+      "default_popup": "popup.html"
+    },
+   "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+    "commands": {
+      "_execute_browser_action": {
+        "suggested_key": {
+          "default": "Alt+G"
+        },
+        "description": "searches for selected word"
+      }
+    },
+   "manifest_version": 2
+ }
