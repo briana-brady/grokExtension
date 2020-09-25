@@ -1,6 +1,6 @@
 chrome.runtime.onInstalled.addListener(function(){
   console.log('startup!')
-  cookie = chrome.cookies.getAll({domain:"localhost", name: "connect.sid"}, function(cookies){
+  cookie = chrome.cookies.getAll({domain:"www.groklingua.com", name: "grokId"}, function(cookies){
     if(!cookies.length){
       chrome.browserAction.setPopup({popup: "signin.html"});
       console.log("cookie removed");

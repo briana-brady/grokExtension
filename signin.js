@@ -1,4 +1,4 @@
-$.get("https://localhost:3000/login/extension", function(result) {
+$.get("https://www.groklingua.com/login/extension", function(result) {
   if (result.loggedIn) {
     window.location.href = "popup.html";
     chrome.runtime.sendMessage({
@@ -15,7 +15,7 @@ $("#loginform").submit(function() {
   console.log(un);
   console.log(ps);
   $.ajax({
-    url: "https://localhost:3000/login",
+    url: "https://www.groklingua.com/login",
     type: 'POST',
     data: {
       username: un,

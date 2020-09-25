@@ -1,6 +1,6 @@
 //https://stackoverflow.com/questions/34170032/how-to-get-selected-text-in-chrome-extension-development?noredirect=1&lq=1
 $(document).ready(()=>{
-  $.get("https://localhost:3000/login/extension", function(result){
+  $.get("https://www.groklingua.com/login/extension", function(result){
     if(!result.loggedIn){
       window.location.href="signin.html";
     }
