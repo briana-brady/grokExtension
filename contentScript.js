@@ -1,2 +1,2 @@
 
-selection = window.getSelection().toString(); [selection];
+selection = window.getSelection().toString(); selection;
