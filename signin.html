@@ -4,14 +4,18 @@
 <head>
   <meta charset="utf-8">
   <title>Log in to grokLingua</title>
+    <link rel="stylesheet" href="popup.css">
 </head>
 
 <body class="signIn">
+  <div class="title">
+    <a href="https://www.groklingua.com" target="_blank">grokLingua</a>
+  </div>
   <form id="loginform">
     <input id="loginform__email" placeholder="Email" type="email" name="username" autofocus>
     <input id="loginform__password" placeholder="Password" type="password" name="password">
     <div class="loginform__asktoregister">
-      Don't have an account?</br> Make one at www.groklingua.com/register</a>
+      Don't have an account?</br> Make one <a href="https://www.groklingua.com/register" target="_blank">here</a>.
     </div>
     <button class="loginform__submitbtn" type="submit" name="submitbtn">Go</button>
   </form>

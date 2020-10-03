@@ -1,19 +1,40 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="popup.css">
-    <script src="jquery-3.5.1.min.js"></script>
-  </head>
-  <body>
-    <div id="selectedText"></div>
-    <div class='def'>
-      <h1 id="mainWord"></h1>
-      <h4 id="altKanji"></h4>
-      <h3 id='readings'></h3>
-      <p id='definitions'></p>
+
+<head>
+  <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="popup.css">
+  <script src="jquery-3.5.1.min.js"></script>
+</head>
+
+<body>
+  <div class="title">
+    <a class="title__link" href="https://www.groklingua.com/dashboard" target="_blank">grokLingua</a>
+  </div>
+  <div class="spinner" hidden>
+    <div class="loadingio-spinner-dual-ball-x7nm5sv9u6">
+      <div class="ldio-pe4g25brmxl">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
     </div>
-    <script src="popup.js" charset="utf-8"></script>
-  </body>
+  </div>
+
+  <div id="selectedText">
+
+  </div>
+  <div id="note">
+
+  </div>
+  <div class='def'>
+    <h1 id="mainWord"></h1>
+    <h4 id="altKanji"></h4>
+    <h3 id='readings'></h3>
+    <p id='definitions'></p>
+  </div>
+  <script src="popup.js" charset="utf-8"></script>
+</body>
+
 </html>
