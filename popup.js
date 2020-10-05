@@ -21,7 +21,7 @@ $(document).ready(() => {
     chrome.tabs.executeScript({
       file: "contentScript.js"
     }, function(selectedText) {
-      if(selectedText != ''){
+      if(selectedText && selectedText != ''){
         console.log(selectedText[0]);
         $('.spinner').toggle();
         $.ajax({
