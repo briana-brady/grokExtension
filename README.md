@@ -7,7 +7,7 @@ However, you can download this folder and install it yourself locally on your br
 
 Here's how you do it:
 
-1. Download and unzip this folder.
+1. Download (green code button) and unzip this folder.
 2. Navigate to your browser's Extension page (chrome://extensions or edge://extensions)
 3. On the bottom left, turn on developer mode
 4. On the right click "Load Unpacked" or "Load Unpacked Extension", and select the folder (unzipped) that you just downloaded.
